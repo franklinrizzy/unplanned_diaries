@@ -1,3 +1,5 @@
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-300 py-10">
@@ -17,7 +19,7 @@ const Footer = () => {
           {/* Links */}
           <div>
             <h3 className="text-lg font-semibold text-white">Quick Links</h3>
-            <ul className="mt-4 space-y-2 text-sm">
+            <ul className="mt-5 space-y-2 text-sm">
               <li><a href="/" className="hover:text-emerald-500 transition">Home</a></li>
               <li><a href="/about" className="hover:text-emerald-500 transition">About</a></li>
               <li><a href="/trips" className="hover:text-emerald-500 transition">Trips</a></li>
@@ -27,7 +29,7 @@ const Footer = () => {
 
           {/* Adventures */}
           <div>
-            <h3 className="text-lg font-semibold text-white">Services</h3>
+            <h3 className="text-lg font-semibold text-white">Adventures</h3>
             <ul className="mt-4 space-y-2 text-sm">
               <li><a href="#" className="hover:text-emerald-500 transition">Custom Trips</a></li>
               <li><a href="#" className="hover:text-emerald-500 transition">Group Tours</a></li>
@@ -45,6 +47,22 @@ const Footer = () => {
                 Email: hello@unplanneddiaries.com
             </p>
           </div>
+        </div>
+
+        {/* Socials */}
+        <div className="flex justify-center mt-8 space-x-6">
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition">
+            <Facebook size={20} />
+          </a>
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition">
+            <Instagram size={20} />
+          </a>
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition">
+            <Twitter size={20} />
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-500 transition">
+            <Youtube size={20} />
+          </a>
         </div>
 
         {/* Divider */}
