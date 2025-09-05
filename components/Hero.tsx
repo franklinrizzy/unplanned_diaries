@@ -16,10 +16,10 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 max-w-4xl px-6">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight shadow-lg">
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight">
           Your Next Adventure Awaits!
         </h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-100 shadow-lg">
+        <p className="mt-4 text-lg md:text-xl text-gray-100">
           We&apos;re not just a travel agency. We&apos;re the ones who are
           here to transform your travel dreams into reality.
         </p>
