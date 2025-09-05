@@ -114,7 +114,7 @@ export default function AboutPage() {
       <section className="py-20 px-6 md:px-20 bg-white">
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-gray-800">Meet Our Team</h2>
-          <div className="w-36 h-1 bg-emerald-500 mx-auto mt-2 rounded"></div>
+          <div className="w-31 h-1 bg-emerald-500 mx-auto mt-2 rounded"></div>
           <p className="mt-4 text-gray-600">
             The passionate explorers behind{" "}
             <span className="font-semibold text-emerald-600">Unplanned Diaries</span>.
